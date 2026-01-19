@@ -1,1 +1,87 @@
+body {
+  <header>
+  <h1>ICW Ghana</h1>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About Us</a>
+    <a href="get-involved.html">Get Involved</a>
+    <a href="donate.html">Donate</a>
+    <a href="news.html">News</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: white;
+  color: #333;
+  line-height: 1.6;
+}
 
+/* HEADER */
+header {
+  background-color: #0057b7; /* Blue */
+  color: white;
+  padding: 20px;
+}
+
+header h1 {
+  margin: 0;
+}
+
+/* NAVIGATION */
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin-right: 15px;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+/* MAIN CONTENT */
+.container {
+  padding: 40px;
+}
+
+/* HEADINGS */
+h2 {
+  color: #0057b7;
+}
+
+/* BUTTONS */
+button {
+  background-color: #ffd500; /* Yellow */
+  border: none;
+  padding: 12px 18px;
+  margin: 10px 10px 10px 0;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #e6c200;
+}
+
+/* SECTIONS */
+.section {
+  background-color: #f5f9ff;
+  padding: 25px;
+  margin-bottom: 30px;
+  border-left: 6px solid #0057b7;
+}
+
+/* FOOTER */
+footer {
+  background-color: #0057b7;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  margin-top: 40px;
+}
